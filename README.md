@@ -21,7 +21,8 @@ A common table expression (CTE) is a named temporary result set that exists with
 
 # Syntax of CTE
 
-WITH cte_name AS (
+WITH cte_name AS 
+(
     -- CTE definition
     SELECT column1, column2, ...
     FROM table_name
